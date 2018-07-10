@@ -1,0 +1,15 @@
+{
+  "name": "robot-webpack-plugin",
+  "version": "0.0.1",
+  "description": "robots.txt generation for webpack 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "robots.txt",
+    "webpack3"
+  ],
+  "author": "Ankur Deep Jaiswal <ankur@techgentsia.com>",
+  "license": "ISC"
+}
