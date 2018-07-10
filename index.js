@@ -6,8 +6,9 @@ function RobotWebpackPlugin (options) {
 }
 
 RobotWebpackPlugin.prototype.apply = function (compiler) {
+  const me = this;
   compiler.plugin('emit', function (compilation, callback) {
-    robotstxt(this.options)
+    robotstxt(me.options)
       .then((content) => {
         compilation.assets['robots.txt'] = {
           source: function () {
