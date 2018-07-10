@@ -1,6 +1,6 @@
 {
   "name": "robot-webpack-plugin",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "robots.txt generation for webpack 3",
   "main": "index.js",
   "scripts": {
