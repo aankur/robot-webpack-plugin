@@ -14,7 +14,9 @@
   "author": "Ankur Deep Jaiswal <ankur@techgentsia.com>",
   "license": "MIT",
   "devDependencies": {
-    "generate-robotstxt": "^5.0.7",
     "semistandard": "^12.0.1"
+  },
+  "dependencies": {
+    "generate-robotstxt": "^5.0.7"
   }
 }
